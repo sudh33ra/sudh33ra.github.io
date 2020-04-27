@@ -5,6 +5,7 @@ relative_links:
   enabled: true
   collections: true
 include:
+  - articles/*.md
   - CONTRIBUTING.md
   - README.md
   - LICENSE.md
