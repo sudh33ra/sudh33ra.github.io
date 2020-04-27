@@ -1,4 +1,5 @@
 # HOMEBASE
+[![Generic badge](https://img.shields.io/badge/answer-42-turquoise.svg)]
 
 ## Articles
 - [Taking backups of file permissions and restoring them](./articles/file-perm "File Permissions article")
