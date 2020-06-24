@@ -11,6 +11,7 @@ You can add the following anywhere that can be read by apache.conf
         SSLCertificateChainFile /home/sudh33rauser/starsudh33ra_ca.crt
     <IfModule mod_proxy.c>
         ProxyRequests Off
+        ProxyPreserveHost On # needed if you need to pass the original host header
         ProxyPass         /   http://localhost:9091/
         ProxyPassReverse  /   http://localhost:9091/
     </IfModule>
