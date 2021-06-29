@@ -5,7 +5,7 @@ There might be times when you’ve run out of swap space and it is not practical
 ## Create File
 ```bash
 dd if=/dev/zero of=/var/my_swap bs=1024 count=131072
-chmod 644 /var/my_swap
+chmod 600 /var/my_swap
 ```
 This invocation creates a file called my_swap in /var. It is 128 Mb long (128 x 1024 = 131072). Initially, it is filled with zeros. 
 
